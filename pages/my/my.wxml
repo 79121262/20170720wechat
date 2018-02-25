@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">昵称：{{userInfo.nickName}}</text>
+    <text class="userinfo-nickname"> 性别：{{userInfo.gender==1?'男':'女'}}</text>
+  </view>
+  <view class="usermotto">
+    <view bindtap="add"> {{count}} </view>
+    <button bindtap="calltc">联系我</button>
+    <button view bindtap="scanCode">扫描二维码</button>
+   <!-- <text class="user-motto">{{motto}}</text>-->
+    <button type="default" bindtap="bindViewTap"> 查看日志 </button>
+  </view>
+</view>

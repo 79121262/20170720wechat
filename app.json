@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video",
+    "pages/list/list",
+    "pages/my/my",
+    "pages/shares/shares"
+  ],
+    "tabBar": {
+    "list": [
+      {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "关于"
+      }
+      ]
+    }, 
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "tc",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#FF69B4"
+  }
+}

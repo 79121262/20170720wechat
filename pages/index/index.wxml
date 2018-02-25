@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <button type="default" bindtap="toList"> 查询歌曲 </button>
+   <button type="default" bindtap="toVideo"> 视屏播放 </button>
+    <button type="default" bindtap="toC"> 时间 </button>
+</view>
